@@ -1,0 +1,16 @@
+{
+  "name": "browser-widgets",
+  "version": "1.0.0",
+  "description": "Transparent & always on top browser pages over your desktop",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/06000208/browser-widgets",
+  "keywords": [],
+  "author": "06000208",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^25.1.0"
+  }
+}
