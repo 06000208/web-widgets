@@ -1,10 +1,14 @@
-# Browser Widgets
+# Web Widgets
 
-Transparent & always on top browser pages over your desktop, emulating the technique and form factor of [OBS browser sources](https://obsproject.com/kb/browser-source)
+Transparent web pages over your desktop, emulating the technique and form factor of [OBS browser sources](https://obsproject.com/kb/browser-source)
+
+Supports always on top and click through
 
 You could use this, for example, with [discord's streamkit overlay](https://streamkit.discord.com/overlay)
 
 This is a work in progress and highly experimental
+
+⚠️ Be aware that anti-cheat software may not like this, and that using this overtop games with intrusive anti-cheat may result in being banned, as windows like this (always on top, click through, transparent) are sometimes used by cheaters
 
 ## License
 

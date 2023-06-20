@@ -1,8 +1,8 @@
 {
-  "name": "browser-widgets",
+  "name": "web-widgets",
   "version": "1.0.0",
-  "description": "Transparent & always on top browser pages over your desktop",
-  "main": "src/main.js",
+  "description": "Transparent web pages for your desktop",
+  "main": "src/index.js",
   "scripts": {
     "start": "electron ."
   },
@@ -10,7 +10,14 @@
   "keywords": [],
   "author": "06000208",
   "license": "CC0-1.0",
+  "type": "commonjs",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.4.1",
+    "data-wrappers": "github:06000208/data-wrappers",
+    "feather-icons": "^4.29.0"
+  },
   "devDependencies": {
+    "@types/node": "^20.3.1",
     "electron": "^25.1.1"
   }
 }
