@@ -11,6 +11,6 @@
   "author": "06000208",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^25.1.0"
+    "electron": "^25.1.1"
   }
 }
