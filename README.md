@@ -2,11 +2,11 @@
 
 Transparent web pages for your desktop, emulating the technique and form factor of [OBS browser sources](https://obsproject.com/kb/browser-source)
 
-You could use this, for example, with [discord's streamkit overlay](https://streamkit.discord.com/overlay)
+You could use this, for example, with [discord's streamkit overlays](https://streamkit.discord.com/overlay)
 
 This is a work in progress and highly experimental
 
-⚠️ Be aware that anti-cheat software may not like this, and that using this alongside games with intrusive anti-cheat may risk your account. This is because cheaters sometimes do similar things with their software (always on top, click through, transparent)
+⚠️ Be aware that using this alongside games with intrusive anti-cheat may risk your account, as cheaters sometimes do similar things with their software (always on top, click through, transparent)
 
 ## Code of Conduct
 
