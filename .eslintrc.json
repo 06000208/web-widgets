@@ -2,9 +2,9 @@
   "root": true,
   "extends": "eslint:recommended",
   "env": {
+    "es2022": true,
     "node": true,
-    "browser": true,
-    "es2022": true
+    "browser": true
   },
   "parserOptions": {
     "sourceType": "script"
