@@ -2,9 +2,17 @@
   "name": "web-widgets",
   "version": "1.0.0",
   "description": "Transparent web pages for your desktop",
-  "main": "src/index.js",
+  "main": "dev/index.js",
   "scripts": {
-    "start": "electron ."
+    "test": "echo \"Error: no tests\" && exit 1",
+    "lint": "eslint . --ext .js,.mjs,.cjs",
+    "fix": "eslint . --ext .js,.mjs,.cjs --fix",
+    "watch": "nodemon scripts/build.js --dev",
+    "dev": "node scripts/build.js --dev",
+    "build": "node scripts/build.js",
+    "start": "npm run build && electron-forge start",
+    "package": "npm run build && electron-forge package",
+    "make": "npm run build && electron-forge make"
   },
   "repository": "https://github.com/06000208/browser-widgets",
   "keywords": [],
@@ -12,15 +20,33 @@
   "license": "CC0-1.0",
   "type": "commonjs",
   "dependencies": {
+    "@codemirror/lang-css": "^6.2.0",
+    "@codemirror/lang-html": "^6.4.5",
+    "@codemirror/lang-javascript": "^6.1.9",
     "@resvg/resvg-js": "^2.4.1",
     "@sapphire/snowflake": "^3.5.1",
+    "codemirror": "^6.0.1",
     "ejs": "^3.1.9",
+    "electron-squirrel-startup": "^1.0.0",
     "electron-store": "^8.1.0",
     "feather-icons": "^4.29.0",
     "fs-extra": "^11.1.1"
   },
   "devDependencies": {
     "@types/node": "^20.3.2",
-    "electron": "^25.2.0"
+    "electron": "^25.2.0",
+    "@electron-forge/cli": "^6.2.1",
+    "@electron-forge/maker-deb": "^6.2.1",
+    "@electron-forge/maker-rpm": "^6.2.1",
+    "@electron-forge/maker-squirrel": "^6.2.1",
+    "@electron-forge/maker-zip": "^6.2.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.2.1",
+    "esbuild": "^0.18.10",
+    "filehound": "^1.17.6",
+    "nodemon": "^2.0.22"
+  },
+  "overrides": {
+    "semver": "~7.5.2",
+    "word-wrap" : "npm:@aashutoshrathi/word-wrap@1.2.5"
   }
 }
