@@ -34,12 +34,7 @@ Thumbs.db
 .idea
 
 # project
-*.7z
-*.xml
-*.zip
-*.json
-!.eslintrc.json
-!jsconfig.json
-!package.json
-!package-lock.json
-temp
+dev/
+!dev/.gitkeep
+out/
+!out/.gitkeep
