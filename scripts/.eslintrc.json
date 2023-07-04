@@ -2,8 +2,7 @@
   "extends": "../.eslintrc.json",
   "env": {
     "es2022": true,
-    "node": false,
-    "browser": true
+    "node": true
   },
   "parserOptions": {
     "sourceType": "module"

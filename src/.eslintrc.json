@@ -2,10 +2,10 @@
   "extends": "../.eslintrc.json",
   "env": {
     "es2022": true,
-    "node": false,
+    "node": true,
     "browser": true
   },
   "parserOptions": {
-    "sourceType": "module"
+    "sourceType": "script"
   }
 }
