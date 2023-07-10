@@ -43,7 +43,7 @@
     "@electron-forge/plugin-auto-unpack-natives": "^6.2.1",
     "esbuild": "^0.18.10",
     "filehound": "^1.17.6",
-    "nodemon": "^2.0.22"
+    "nodemon": "^3.0.1"
   },
   "overrides": {
     "semver": "~7.5.2",
