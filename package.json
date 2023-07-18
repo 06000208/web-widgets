@@ -41,7 +41,7 @@
     "@electron-forge/maker-squirrel": "^6.2.1",
     "@electron-forge/maker-zip": "^6.2.1",
     "@electron-forge/plugin-auto-unpack-natives": "^6.2.1",
-    "esbuild": "^0.18.10",
+    "esbuild": "^0.18.14",
     "filehound": "^1.17.6",
     "nodemon": "^2.0.22"
   },
