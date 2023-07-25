@@ -33,20 +33,20 @@
     "fs-extra": "^11.1.1"
   },
   "devDependencies": {
-    "@types/node": "^20.4.0",
-    "electron": "^25.2.0",
     "@electron-forge/cli": "^6.2.1",
     "@electron-forge/maker-deb": "^6.2.1",
     "@electron-forge/maker-rpm": "^6.2.1",
     "@electron-forge/maker-squirrel": "^6.2.1",
     "@electron-forge/maker-zip": "^6.2.1",
     "@electron-forge/plugin-auto-unpack-natives": "^6.2.1",
-    "esbuild": "^0.18.10",
+    "@types/node": "^20.4.4",
+    "electron": "^25.3.1",
+    "esbuild": "^0.18.16",
     "filehound": "^1.17.6",
-    "nodemon": "^2.0.22"
+    "nodemon": "^3.0.1"
   },
   "overrides": {
     "semver": "~7.5.2",
-    "word-wrap" : "npm:@aashutoshrathi/word-wrap@1.2.5"
+    "word-wrap": "npm:@aashutoshrathi/word-wrap@1.2.5"
   }
 }
