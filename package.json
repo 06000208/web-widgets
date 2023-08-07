@@ -20,7 +20,7 @@
   "license": "CC0-1.0",
   "type": "commonjs",
   "dependencies": {
-    "@codemirror/lang-css": "^6.2.0",
+    "@codemirror/lang-css": "^6.2.1",
     "@codemirror/lang-html": "^6.4.5",
     "@codemirror/lang-javascript": "^6.1.9",
     "@resvg/resvg-js": "^2.4.1",
