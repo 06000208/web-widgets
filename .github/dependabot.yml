@@ -8,8 +8,6 @@ updates:
     open-pull-requests-limit: 99
     versioning-strategy: increase-if-necessary
     groups:
-      electron:
-        patterns:
       dependencies:
         patterns:
           - "electron"
