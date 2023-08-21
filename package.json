@@ -41,7 +41,7 @@
     "@electron-forge/plugin-auto-unpack-natives": "^6.2.1",
     "@types/node": "^20.4.4",
     "electron": "^25.3.1",
-    "esbuild": "^0.18.16",
+    "esbuild": "^0.19.2",
     "filehound": "^1.17.6",
     "nodemon": "^3.0.1"
   },
