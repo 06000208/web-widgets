@@ -1,9 +1,31 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "13:00"
-  open-pull-requests-limit: 99
-  versioning-strategy: increase
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      time: "13:00"
+    open-pull-requests-limit: 99
+    versioning-strategy: increase-if-necessary
+    groups:
+      electron:
+        patterns:
+      dependencies:
+        patterns:
+          - "electron"
+          - "electron-squirrel-startup"
+          - "electron-store"
+          - "codemirror"
+          - "@codemirror/*"
+          - "@resvg/resvg-js"
+          - "@sapphire/snowflake"
+          - "ejs"
+          - "feather-icons"
+          - "fs-extra"
+      dev-dependencies:
+        patterns:
+          - "@types/node"
+          - "esbuild"
+          - "filehound"
+          - "nodemon"
+          - "@electron-forge/*"
