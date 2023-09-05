@@ -25,6 +25,7 @@
     "@codemirror/lang-javascript": "^6.2.1",
     "@resvg/resvg-js": "^2.4.1",
     "@sapphire/snowflake": "^3.5.1",
+    "@tanem/svg-injector": "^10.1.62",
     "codemirror": "^6.0.1",
     "ejs": "^3.1.9",
     "electron-squirrel-startup": "^1.0.0",

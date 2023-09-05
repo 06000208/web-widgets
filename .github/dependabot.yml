@@ -20,6 +20,7 @@ updates:
           - "ejs"
           - "feather-icons"
           - "fs-extra"
+          - "@tanem/svg-injector"
       dev-dependencies:
         patterns:
           - "@types/node"
