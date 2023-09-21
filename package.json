@@ -31,6 +31,7 @@
     "electron-squirrel-startup": "^1.0.0",
     "electron-store": "^8.1.0",
     "feather-icons": "^4.29.1",
+    "focus-trap": "^7.5.2",
     "fs-extra": "^11.1.1"
   },
   "devDependencies": {

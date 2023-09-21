@@ -21,6 +21,7 @@ updates:
           - "feather-icons"
           - "fs-extra"
           - "@tanem/svg-injector"
+          - "focus-trap"
       dev-dependencies:
         patterns:
           - "@types/node"
