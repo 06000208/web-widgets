@@ -4,7 +4,7 @@ Transparent web pages for your desktop, emulating the technique and form factor 
 
 You could use this, for example, with [discord's streamkit overlays](https://streamkit.discord.com/overlay)
 
-This is a work in progress and highly experimental
+This is a work in progress and highly experimental. It's currently undergoing testing to figure out a build workflow, as well a gui overhaul, so source code hasn't been committed here yet.
 
 ⚠️ Be aware that using this alongside games with intrusive anti-cheat may risk your account, as cheaters sometimes do similar things with their software (always on top, click through, transparent)
 
